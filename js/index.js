@@ -1,5 +1,5 @@
-const button = document.getElementById('#btn');
+const button = document.getElementById('btn');
 
-button.onclick(() => {
-  console.log('페이지 이동 준비!!');
-});
+button.onclick = () => {
+  location.href = './index/people/list.html';
+};
