@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-X</title>
-    <link type="stylesheet" src="./css/index.css"/>
+    <link type="stylesheet" src="./css/index.css" />
 </head>
+
 <body>
     <div id="fixed_wrap">
         <div id="wrap">
             <div id="header">
-                <div id="scontent" class="ws_search_wrap"> <h1><a onclick="return goOtherCR(this,&quot;a=&amp;r=1&amp;i=&quot;+urlencode(&quot;00000000&quot;)+&quot;&amp;u=&quot;+urlencode(this.href));" href="https://www.naver.com/"><img src="https://ssl.pstatic.net/sstatic/search/tx2/logo_txindex_naver.png" alt="NAVER" width="122" height="22"></a><img src="https://ssl.pstatic.net/sstatic/search/tx2/sp_index_tit1.gif" class="tx_name" alt="인물검색" width="101" height="28"></h1> <form name="search" id="search_form" method="get" action="/search.naver"> <fieldset class="g_window"> <legend>검색</legend> <div class="gbox"> <span> <input type="hidden" name="sm" value="sbx_hty"> <input type="hidden" name="where" value="nexearch"> <input type="hidden" name="ie" value="utf8"> <input type="text" title="검색" name="query" id="nx_query" maxlength="255" class="box_window" accesskey="s" autocomplete="off"> </span> </div> <input type="image" src="https://ssl.pstatic.net/sstatic/search/common/btn_txsch2.gif" onmouseover="this.src='https://ssl.pstatic.net/sstatic/search/common/btn_txsch2_over.gif'" onmousedown="this.src='https://ssl.pstatic.net/sstatic/search/common/btn_txsch2_down.gif'" onmouseout="this.src='https://ssl.pstatic.net/sstatic/search/common/btn_txsch2.gif'" alt="검색" class="btn_window"> </fieldset> </form> </div>
+                <div id="scontent" class="ws_search_wrap">
+                    <h1>
+                        <a onclick="return goOtherCR(this,&quot;a=&amp;r=1&amp;i=&quot;+urlencode(&quot;00000000&quot;)+&quot;&amp;u=&quot;+urlencode(this.href));"
+                            href="https://www.naver.com/">
+                            <img src="https://ssl.pstatic.net/sstatic/search/tx2/logo_txindex_naver.png" alt="NAVER"
+                                width="122" height="22">
+                        </a>
+                        <img src="https://ssl.pstatic.net/sstatic/search/tx2/sp_index_tit1.gif" class="tx_name"
+                            alt="인물검색" width="101" height="28">
+                    </h1>
+                    <form name="search" id="search_form" method="get" action="/search.naver">
+                        <fieldset class="g_window">
+                            <legend>검색</legend>
+                            <div class="gbox">
+                                <span>
+                                    <input type="hidden" name="sm" value="sbx_hty">
+                                    <input type="hidden" name="where" value="nexearch">
+                                    <input type="hidden" name="ie" value="utf8">
+                                    <input type="text" title="검색" name="query" id="nx_query" maxlength="255"
+                                        class="box_window" accesskey="s" autocomplete="off">
+                                </span>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
             <div id="banner"></div>
             <div id="footer"></div>
@@ -18,4 +44,5 @@
     </div>
     <script src="js/index.js"></script>
 </body>
+
 </html>
